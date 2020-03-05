@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF=8">
+	<title>Declaro</title>
+</head>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<body>
+<div class="container">
+
+<form id='submit_params' method="POST" action="{{ url_for('main') }}">
+<div class="form-group">
+<table class="table">
+    <tr>
+        <td width="300px"><p style="text-align:center"><h1> Aplicación <BR>Declaro</h1></p></td>
+        <td><p style="text-align:center">
+			<img src="static/images/small_titanic.jpg" alt="titanic" style='padding:1px; border:1px solid #021a40; width: 80%; height: 80%'>
+			</p>
+		</td>
+    </tr>
+    <tr>
+        <td>
+            <table class="table" border=0 >
+                <tr>
+                    <td><label>Nombre de Usuario</label></td>
+                    <td><input type="text" class="form-control" id="user"
+                    	placeholder="Ingrese usuario" name="s_user" value="{{user}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Contraseña</label></td>
+                    <td><input type="text" class="form-control" id="Contraseña"
+                    	placeholder="Ingrese contraseña" name="s_password" value="{{password}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Captcha 1</label></td>
+                    <td><input type="text" class="form-control" id="Captcha1"
+                    	placeholder="Ingrese Captcha 1" name="s_cap1" value="{{captcha1}}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Captcha 2</label></td>
+                    <td><input type="text" class="form-control" id="Captcha2"
+                    	placeholder="Ingrese Captcha 2" name="s_casp2" value="{{captcha2}}">
+                    </td>
+                </tr>
+
+          </table>
+
+        </td>
+
+        <td>{{model_results}}<BR>{{model_plot}}
+        </td>
+        <td>
+        	<p style="text-align:center">Detalle de cabina</p>
+        	<p style="text-align:center">
+			<img src="static/images//small_cabin_location.png" alt="cabin locations" style='padding:1px; border:1px solid #021a40; width: 100%; height: 100%'>
+			</p></td>
+    </tr>
+    <td><button class="btn btn-default" type="submit" style="width: 100px; height: 30px;">Login</button></td><td></td><td></td>
+    <td><button class="btn btn-default" type="submit" style="width: 100px; height: 30px;">Ingresar Captcha 1</button></td><td></td><td></td>
+    <td><button class="btn btn-default" type="submit" style="width: 100px; height: 30px;">Ingresar Captcha 2</button></td><td></td><td></td>
+    <tr>
+</table>
+</div>
+</form>
+
+</div>
+</body>
+</html>
+
