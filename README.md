@@ -38,4 +38,4 @@ You can run every module separatly to check that is working (Modules 3 to 7) but
 
 ## Author
 
-* **Alberto Ibarra** - *Initial work* - [PurpleBooth](https://github.com/albertoid)
+* **Alberto Ibarra** - *Initial work* - [Alberto Ibarra](https://github.com/albertoid)
