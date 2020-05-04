@@ -35,6 +35,10 @@ You can run every module separatly to check that is working (Modules 3 to 7) but
 * [Selenium](https://selenium-python.readthedocs.io/) - Web driver
 * [PyMongo](https://api.mongodb.com/python/current/) - Database access API
 
+## Presentation
+
+* [Presentation](https://drive.google.com/file/d/1-cUxaw-jtuoiAdAmFrsDuqsH-0JRHHBO/view?usp=sharing)
+* [Video Demo](https://drive.google.com/file/d/1qi4kE-DnfxuyPhi7VKpuU9OUZPJ9uuF1/view?usp=sharing)
 
 ## Author
 
