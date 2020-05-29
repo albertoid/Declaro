@@ -23,6 +23,7 @@ You need to install
 pip3 install pymongo
 pip3 install selenium
 ```
+This is working over the Chrome driver of Selenium, be sure to install it before you try to run the api
 
 ## Running the tests
 
