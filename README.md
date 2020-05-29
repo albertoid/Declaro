@@ -23,7 +23,7 @@ You need to install
 pip3 install pymongo
 pip3 install selenium
 ```
-This is working over the Chrome driver of Selenium, be sure to install it before you try to run the api
+This is working over the Chrome driver of Selenium, be sure to install it before you try to run the api. For this just download the lastest stable version of the driver from the [Chrome Driver](https://chromedriver.chromium.org/) webpage. In Mac OS once download copy the exec file in one path environment location, normally `/usr/local/bin` location will do the trick.
 
 ## Running the tests
 
